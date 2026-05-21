@@ -21,6 +21,8 @@ function createWindow() {
     height: 588,
     minWidth: 900,
     minHeight: 588,
+    frame: false,
+    transparent: true,
     titleBarStyle: 'hidden',
     titleBarOverlay: {
         color: 'rgb(231, 215, 193)',
