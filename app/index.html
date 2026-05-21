@@ -6,6 +6,7 @@
     <title>Genshin Scampact</title>
 
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     
@@ -16,7 +17,7 @@
     <header>
         <div>
             <h1><i>Lyney</i> 5*</h1>
-            <p>P. <span id="primos">{total}</span></p>
+            <p>P. <span id="primosSpan"></span></p>
         </div>
     </header>
 
@@ -31,15 +32,15 @@
                 <span id="bennettSpan">Bennett *4</span>
                 <span id="weaponSpan">Weapon *3</span>
             </div>
-            <h2>Pity: <span id="pity">{null}</span></h2>
+            <h2>Pity: <span id="pity"></span></h2>
         </div>
     </section>
 
     <footer>
         <div>
-            <button id="eventBtn">EVENT</button>
-            <button id="wishx1Btn">WISH x1</button>
-            <button id="wishx10Btn">WISH x10</button>
+            <button id="eventBtn" onclick="event()">EVENT</button>
+            <button id="wishx1Btn" onclick="singlePull()">WISH x1</button>
+            <button id="wishx10Btn" onclick="multiPull()">WISH x10</button>
         </div>
     </footer>
 
