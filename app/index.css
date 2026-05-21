@@ -41,6 +41,12 @@ header > div {
     align-items: center;
 }
 
+.lyneyTitle {
+    transform: translateX(30%);
+
+    font-size: 40px;
+}
+
 i {
     font-style: normal;
     color: rgb(191, 67, 66);
@@ -48,12 +54,33 @@ i {
 
 p {
     background-color: rgb(255, 248, 239);
+    font-size: 24px;
 
-    text-align: center;
-    line-height: 1;
-
-    padding: 15px 20px;
+    padding: 10px 15px;
 
     border-radius: 30px;
     box-shadow: 0px 5px 0px rgb(167, 138, 127);
+
+    transform: translateX(250%);
+}
+
+/** section **/
+
+section > div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+img {
+    transform: translateX(5%);
+}
+
+section > div > h1 {
+    transform: translate( 25%, 0%)
+}
+
+.charSec {
+    display: flex;
+    flex-direction: column;
 }
